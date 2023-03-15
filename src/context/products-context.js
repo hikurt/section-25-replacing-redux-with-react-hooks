@@ -31,7 +31,8 @@ export default props => {
       description: 'Street style! An orange hat.',
       isFavorite: false
     },
-  ]);
+  ]
+  );
 
   const toggleFavorite = productId => {
     setProductsList(currentProdList => {
